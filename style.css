@@ -1,0 +1,82 @@
+/* BODY (umubiri wa website) */
+body {
+    margin: 0; /* ntihagire space kuri edges */
+    font-family: Arial, sans-serif; /* font isukuye */
+    text-align: center; /* byose bibe centered */
+  }
+  
+  /* HEADER (umutwe w’imbere) */
+  header {
+    background-color: #0d6efd; /* ubururu */
+    color: white; /* inyuguti zera */
+    padding: 60px 20px; /* spacing hejuru no hepfo */
+  }
+  
+  header h1 {
+    margin-bottom: 10px; /* spacing hagati y’umutwe n’amagambo hasi */
+  }
+  
+  /* SECTIONS (ibice bya website) */
+  section {
+    padding: 40px 20px; /* spacing hejuru/hepfo */
+  }
+  
+  section h2 {
+    color: #0d6efd; /* umutwe w’icyiciro ubururu */
+  }
+  
+  /* LIST YA SERVICES */
+  ul {
+    list-style: none; /* ntihagire bullets default */
+    padding: 0;
+  }
+  
+  ul li {
+    background: #f4f4f4; /* ibara ryoroheje kuri box */
+    margin: 10px auto; /* spacing hagati y’ibice */
+    padding: 15px; /* spacing imbere muri box */
+    max-width: 300px; /* width ntarenga kuri desktop & phone */
+    border-radius: 8px; /* corners ziryoshye */
+  }
+  
+  /* FOOTER (impera) */
+  footer {
+    background: #222; /* umukara */
+    color: white; /* inyuguti zera */
+    padding: 15px;
+  }
+ /* BUTTON */
+.btn {
+  background-color: #25D366; /* ibara rya WhatsApp */
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none; /* ntakiri underline */
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #128C7E; /* hover effect */
+}/* GALLERY */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.gallery img {
+  max-width: 300px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}@media only screen and (max-width: 600px) {
+  .gallery img {
+    max-width: 90%; /* amafoto akwiriye phone */
+  }
+}
+
+
