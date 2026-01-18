@@ -6,6 +6,7 @@ const error = document.getElementById("error");
 
 form.addEventListener("submit", function(e) {
     e.preventDefault();
+
     const username = document.getElementById("username").value;
     const password = document.getElementById("password").value;
 
@@ -16,4 +17,3 @@ form.addEventListener("submit", function(e) {
         error.textContent = "Invalid username or password!";
     }
 });
-
